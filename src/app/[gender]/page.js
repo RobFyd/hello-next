@@ -2,6 +2,7 @@ const PARAM_TO_WORD_WITH_EMOJI = {
   men: "Men💪🏼",
   women: "Women👄",
   kids: "Kids🪁",
+  unisex: "Unisex👕",
 };
 
 export default function DynamicRoute({ params }) {
