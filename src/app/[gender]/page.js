@@ -4,7 +4,6 @@ const PARAM_TO_WORD_WITH_EMOJI = {
   kids: "Kids🪁",
   unisex: "Unisex👕",
   animals: "Animals🐶",
-  others: "Others❓",
 };
 
 export default function DynamicRoute({ params }) {
@@ -20,6 +19,5 @@ export async function generateStaticParams() {
     { gender: "kids" },
     { gender: "unisex" },
     { gender: "animals" },
-    { gender: "others" },
   ];
 }
