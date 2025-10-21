@@ -1,8 +1,10 @@
+import styles from "./LanguageSelector.module.css";
+
 export function LanguageSelector() {
   return (
-    <select>
-      <option value="en">English</option>
-      <option value="pl">Polish</option>
+    <select className={styles.languageSelector}>
+      <option value="EN">English</option>
+      <option value="PL">Polish</option>
     </select>
   );
 }
