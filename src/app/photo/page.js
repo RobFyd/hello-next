@@ -8,6 +8,7 @@ export default function Photo() {
       width={800}
       height={400}
       priority
+      // placeholder="blur" // <- wymaga dodatkowego pliku .blur.jpg
     />
   );
 }
